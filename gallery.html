@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Website - Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery-item {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo" height="50px">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Gallery</a>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <h1>Gallery</h1>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="news1.jpg" alt="News 1">
+                <h3>News Headline 1</h3>
+                <p>Big Supreme Court Relief For Arvind Kejriwal In Delhi Liquor Policy Case</p>
+            </div>
+            <div class="gallery-item">
+                <img src="news2.jpg" alt="News 2">
+                <h3>News Headline 2</h3>
+                <p>Biden reacts to Kamala Harris gaffe and Trump's mockery, 'I know the difference between...'</p>
+            </div> 
+            <div class="gallery-item">
+                <img src="news3.jpg" alt="News 3">
+                <h3>News Headline 3</h3>
+                <p>‘Don’t take relationship for granted,’ says US envoy to India days after Modi-Putin meet</p>
+            </div> 
+            <div class="gallery-item">
+                <img src="news4.jpg" alt="News 4">
+                <h3>News Headline 4</h3>
+                <p>Maharashtra MLC Polls Live Updates: ‘All independent MLAs from our side have voted as they were told,’ says Eknath Shinde</p>
+            </div> 
+            <div class="gallery-item">
+                <img src="news5.jpg" alt="News 5">
+                <h3>News Headline 5</h3>
+                <p>‘Endocrinologist’ to ‘arrogant’ IAS trainee who ‘misused’ quota: Who is Puja Khedkar?</p>
+            </div> 
+            <div class="gallery-item">
+                <img src="news6.jpg" alt="News 6">
+                <h3>News Headline 6</h3>
+                <p>IMD issues orange alert in Mumbai, predicts heavy to very heavy rainfall</p>
+            </div> 
+            <div class="gallery-item">
+                <img src="news7.jpg" alt="News 7">
+                <h3>News Headline 7</h3>
+                <p>Gautam Gambhir requests BCCI for ex-Pakistan bowling coach and South Africa great Morne Morkel: Report</p>
+            </div> 
+            <div class="gallery-item">
+                <img src="news8.jpg" alt="News 8">
+                <h3>News Headline 8</h3>
+                <p>Nita Ambani brings chaatwalas from Varanasi for Anant Ambani wedding days after trying lip-smacking delicacies</p>
+            </div> 
+            <div class="gallery-item">
+                <img src="news9.jpg" alt="News 9">
+                <h3>News Headline 9</h3>
+                <p>Kejriwal gets interim bail in ED case: The questions on agency’s powers to arrest</p>
+            </div>
+            <div class="gallery-item">
+                <img src="news10.jpg" alt="News 10">
+                <h3>News Headline 10</h3>
+                <p>Patiala: ADO paper leak allegations baseless: PPSC Chairman cites probe findings</p>
+            </div> 
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Contact us at: contact@example.com | Phone: +1 234 567 890</p>
+        </div>
+    </footer>
+</body>
+</html>
